@@ -1,0 +1,43 @@
+.nav {
+    width: auto;
+   
+    background-color: dimgray;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-title  {
+    margin-left: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.nav-links {
+    display: flex;
+    margin-right: 20px;
+    
+}
+
+.nav-links a {
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(224, 197, 197);
+    font-family: sans-serif;
+
+}
+
+.nav ul{
+    list-style-type: none;
+}
+
+a.active {
+    color:  white;
+}
+.btn {
+    background-color: rgb(66, 178, 223);
+    box-shadow: 4px 4px black   ;
+    font-size: 15px;
+    border: 2px solid;
+}
